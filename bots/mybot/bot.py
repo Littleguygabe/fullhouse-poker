@@ -115,6 +115,12 @@ def handle_preflop(game_state) -> dict:
         return {'action':'fold'}
 
 def decide(game_state: dict) -> dict:
+    # ? bet sizing
+    # ? implement a proper logger
+        # like the one from imc
+    # ? maybe vibe code a visualiser from the logger
+
+
     try:
         if game_state.get('type') == 'warmup':
             return {"ok": True}
