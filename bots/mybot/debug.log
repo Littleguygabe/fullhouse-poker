@@ -1,238 +1,248 @@
 --- MATCH START ---
-Hand: 22	| Pos: CO	| Board: RFI	| Range: True	| Stack : 100.0	| Bet : call 	| Hand ID : local_62fc7b35_h0000
-Hand: T3o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 99.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0001
-Hand: K7o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 99.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0002
-Hand: Q6o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 98.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0003
-Hand: A2s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 97.5	| Bet : call 	| Hand ID : local_62fc7b35_h0004
-Hand: A2s	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 97.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0004
-Hand: AQo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 97.0	| Bet : call 	| Hand ID : local_62fc7b35_h0005
-Hand: AQo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 96.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0005
-Hand: 86o	| Pos: CO	| Board: RFI	| Range: False	| Stack : 96.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0006
-Hand: 63o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 96.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0007
-Hand: J6o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 96.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0008
-Hand: K4o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 95.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0009
-Hand: A8o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 94.5	| Bet : call 	| Hand ID : local_62fc7b35_h0010
-Hand: A8o	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 94.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0010
-Hand: J5o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 94.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0011
-Hand: 84s	| Pos: CO	| Board: FRFI	| Range: False	| Stack : 94.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0012
-Hand: 22	| Pos: SB	| Board: RFI	| Range: True	| Stack : 93.5	| Bet : call 	| Hand ID : local_62fc7b35_h0013
-Hand: 22	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 93.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0013
-Hand: 66	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 93.0	| Bet : call 	| Hand ID : local_62fc7b35_h0014
-Hand: J5o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 92.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0015
-Hand: T8o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 92.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0016
-Hand: 84o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 91.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0017
-Hand: K4o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 90.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0018
-Hand: J2o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 90.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0019
-Hand: 98s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 90.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0020
-Hand: J5o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 90.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0021
-Hand: K7o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 89.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0022
-Hand: 96o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 89.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0023
-Hand: 63o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 89.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0024
-Hand: 76o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 89.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0025
-Hand: T8o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 89.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0026
-Hand: A8o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 88.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0027
-Hand: KTo	| Pos: SB	| Board: RFI	| Range: True	| Stack : 87.5	| Bet : call 	| Hand ID : local_62fc7b35_h0028
-Hand: KTo	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 87.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0028
-Hand: A2o	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 87.0	| Bet : call 	| Hand ID : local_62fc7b35_h0029
-Hand: Q9o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 86.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0030
-Hand: Q7o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 86.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0031
-Hand: 52o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 85.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0032
-Hand: K5o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 84.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0033
-Hand: 77	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 84.5	| Bet : call 	| Hand ID : local_62fc7b35_h0034
-Hand: 77	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 83.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0034
-Hand: KQs	| Pos: HJ	| Board: RFI	| Range: True	| Stack : 83.5	| Bet : call 	| Hand ID : local_62fc7b35_h0035
-Hand: KQs	| Pos: HJ	| Board: FRFI	| Range: False	| Stack : 82.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0035
-Hand: 87o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 82.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0036
-Hand: TT	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 81.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0037
-Hand: 54s	| Pos: SB	| Board: RFI	| Range: False	| Stack : 81.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0038
-Hand: A4o	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 81.0	| Bet : call 	| Hand ID : local_62fc7b35_h0039
-Hand: A4o	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 80.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0039
-Hand: 32s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 80.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0040
-Hand: T6o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 80.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0041
-Hand: A8o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 79.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0042
-Hand: KJo	| Pos: SB	| Board: RFI	| Range: True	| Stack : 78.5	| Bet : call 	| Hand ID : local_62fc7b35_h0043
-Hand: A6s	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 78.0	| Bet : call 	| Hand ID : local_62fc7b35_h0044
-Hand: A6s	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 77.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0044
-Hand: K7s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 77.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0045
-Hand: T4o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 77.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0046
-Hand: 86o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 76.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0047
-Hand: 76o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 75.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0048
-Hand: Q2o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 75.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0049
-Hand: 95o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 75.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0050
-Hand: A7o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 75.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0051
-Hand: JTs	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 74.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0052
-Hand: T4o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 74.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0053
-Hand: 99	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 74.0	| Bet : call 	| Hand ID : local_62fc7b35_h0054
-Hand: K8o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 73.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0055
-Hand: T5s	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 73.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0056
-Hand: Q3s	| Pos: BB	| Board: RFI	| Range: False	| Stack : 72.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0057
-Hand: J9o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 71.5	| Bet : call 	| Hand ID : local_62fc7b35_h0058
-Hand: J9o	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 71.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0058
-Hand: T6o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 71.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0059
-Hand: K5o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 71.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0060
-Hand: 95o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 71.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0061
-Hand: 76o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 70.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0062
-Hand: QTo	| Pos: SB	| Board: RFI	| Range: True	| Stack : 69.5	| Bet : call 	| Hand ID : local_62fc7b35_h0063
-Hand: T8s	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 69.0	| Bet : call 	| Hand ID : local_62fc7b35_h0064
-Hand: T8s	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 68.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0064
-Hand: K7o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 68.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0065
-Hand: 62s	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 68.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0066
-Hand: J6o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 67.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0067
-Hand: AA	| Pos: SB	| Board: RFI	| Range: True	| Stack : 66.5	| Bet : call 	| Hand ID : local_62fc7b35_h0068
-Hand: J6o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 66.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0069
-Hand: KQo	| Pos: HJ	| Board: RFI	| Range: True	| Stack : 66.0	| Bet : call 	| Hand ID : local_62fc7b35_h0070
-Hand: KQo	| Pos: HJ	| Board: FRFI	| Range: False	| Stack : 65.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0070
-Hand: J3o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 65.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0071
-Hand: T3s	| Pos: BB	| Board: RFI	| Range: False	| Stack : 64.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0072
-Hand: Q2s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 63.5	| Bet : call 	| Hand ID : local_62fc7b35_h0073
-Hand: Q2s	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 63.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0073
-Hand: T9o	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 63.0	| Bet : call 	| Hand ID : local_62fc7b35_h0074
-Hand: T9o	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 62.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0074
-Hand: K6s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 62.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0075
-Hand: J2o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 62.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0076
-Hand: J8o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 61.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0077
-Hand: Q9o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 60.5	| Bet : call 	| Hand ID : local_62fc7b35_h0078
-Hand: Q9o	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 60.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0078
-Hand: QTo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 60.0	| Bet : call 	| Hand ID : local_62fc7b35_h0079
-Hand: QTo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 59.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0079
-Hand: K2o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 59.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0080
-Hand: J7s	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 59.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0081
-Hand: 76o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 58.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0082
-Hand: A3o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 57.5	| Bet : call 	| Hand ID : local_62fc7b35_h0083
-Hand: A3o	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 57.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0083
-Hand: A8s	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 57.0	| Bet : call 	| Hand ID : local_62fc7b35_h0084
-Hand: JTo	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 56.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0085
-Hand: 54o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 56.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0086
-Hand: 54o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 55.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0087
-Hand: K9o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 54.5	| Bet : call 	| Hand ID : local_62fc7b35_h0088
-Hand: J3o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 54.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0089
-Hand: 84o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 54.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0090
-Hand: K8s	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 54.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0091
-Hand: 94s	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 53.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0092
-Hand: Q6o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 52.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0093
-Hand: K3o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 52.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0094
-Hand: K3o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 52.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0095
-Hand: KTs	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 52.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0096
-Hand: 43o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 51.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0097
-Hand: J3o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 51.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0098
-Hand: K7o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 51.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0099
-Hand: 94s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 51.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0100
-Hand: QJo	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 51.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0101
-Hand: 98s	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 50.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0102
-Hand: A3s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 49.5	| Bet : call 	| Hand ID : local_62fc7b35_h0103
-Hand: A3s	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 49.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0103
-Hand: KQs	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 49.0	| Bet : call 	| Hand ID : local_62fc7b35_h0104
-Hand: KQs	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 48.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0104
-Hand: 92o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 48.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0105
-Hand: 43o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 48.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0106
-Hand: K7o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 47.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0107
-Hand: Q8o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 46.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0108
-Hand: ATs	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 46.5	| Bet : call 	| Hand ID : local_62fc7b35_h0109
-Hand: ATs	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 45.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0109
-Hand: 84o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 45.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0110
-Hand: J5s	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 45.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0111
-Hand: 54o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 44.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0112
-Hand: J5s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 44.0	| Bet : call 	| Hand ID : local_62fc7b35_h0113
-Hand: J5s	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 43.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0113
-Hand: KJo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 43.5	| Bet : call 	| Hand ID : local_62fc7b35_h0114
-Hand: KJo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 42.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0114
-Hand: 74o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 42.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0115
-Hand: Q5o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 42.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0116
-Hand: 96o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 41.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0117
-Hand: A8o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 41.0	| Bet : call 	| Hand ID : local_62fc7b35_h0118
-Hand: A8o	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 40.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0118
-Hand: KQo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 40.5	| Bet : call 	| Hand ID : local_62fc7b35_h0119
-Hand: KJo	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 39.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0120
-Hand: T7o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 39.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0121
-Hand: J6o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 38.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0122
-Hand: A5s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 38.0	| Bet : call 	| Hand ID : local_62fc7b35_h0123
-Hand: 72o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 37.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0124
-Hand: 53o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 37.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0125
-Hand: A4o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 37.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0126
-Hand: 54s	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 36.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0127
-Hand: 96o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 36.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0128
-Hand: K2s	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 36.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0129
-Hand: 83s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 36.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0130
-Hand: K7o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 36.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0131
-Hand: 84o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 35.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0132
-Hand: K8o	| Pos: SB	| Board: RFI	| Range: True	| Stack : 34.5	| Bet : call 	| Hand ID : local_62fc7b35_h0133
-Hand: K8o	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 34.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0133
-Hand: K4o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 34.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0134
-Hand: 76s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 34.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0135
-Hand: A2o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 34.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0136
-Hand: K2o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 33.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0137
-Hand: A9s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 32.5	| Bet : call 	| Hand ID : local_62fc7b35_h0138
-Hand: A9s	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 32.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0138
-Hand: ATo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 32.0	| Bet : call 	| Hand ID : local_62fc7b35_h0139
-Hand: ATo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 31.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0139
-Hand: K5s	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 31.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0140
-Hand: K9o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 31.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0141
-Hand: 76o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 30.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0142
-Hand: T6s	| Pos: SB	| Board: RFI	| Range: False	| Stack : 29.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0143
-Hand: 76o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 29.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0144
-Hand: AJo	| Pos: HJ	| Board: RFI	| Range: True	| Stack : 29.5	| Bet : call 	| Hand ID : local_62fc7b35_h0145
-Hand: 85o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 28.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0146
-Hand: 94s	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 27.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0147
-Hand: 32o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 27.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0148
-Hand: K6s	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 27.0	| Bet : call 	| Hand ID : local_62fc7b35_h0149
-Hand: K6s	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 26.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0149
-Hand: T9o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 26.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0150
-Hand: 93o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 26.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0151
-Hand: AJo	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 25.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0152
-Hand: T7s	| Pos: SB	| Board: RFI	| Range: False	| Stack : 24.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0153
-Hand: AQo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 24.5	| Bet : call 	| Hand ID : local_62fc7b35_h0154
-Hand: AQo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 23.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0154
-Hand: Q6o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 23.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0155
-Hand: 73o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 23.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0156
-Hand: Q3o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 22.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0157
-Hand: 85o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 22.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0158
-Hand: K3o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 22.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0159
-Hand: 92o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 22.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0160
-Hand: Q4o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 22.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0161
-Hand: J3o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 21.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0162
-Hand: JTo	| Pos: SB	| Board: RFI	| Range: True	| Stack : 20.5	| Bet : call 	| Hand ID : local_62fc7b35_h0163
-Hand: JTo	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 20.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0163
-Hand: KK	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 20.0	| Bet : call 	| Hand ID : local_62fc7b35_h0164
-Hand: 75o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 19.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0165
-Hand: 82o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 19.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0166
-Hand: K3o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 18.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0167
-Hand: QJo	| Pos: SB	| Board: RFI	| Range: True	| Stack : 17.5	| Bet : call 	| Hand ID : local_62fc7b35_h0168
-Hand: QJo	| Pos: SB	| Board: FRFI	| Range: False	| Stack : 17.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0168
-Hand: 62s	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 17.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0169
-Hand: Q5o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 17.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0170
-Hand: T3o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 17.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0171
-Hand: 54o	| Pos: BB	| Board: RFI	| Range: False	| Stack : 16.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0172
-Hand: 87o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 15.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0173
-Hand: AQo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 15.5	| Bet : call 	| Hand ID : local_62fc7b35_h0174
-Hand: AQo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 14.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0174
-Hand: T4o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 14.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0175
-Hand: T6o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 14.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0176
-Hand: T8o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 13.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0177
-Hand: J6s	| Pos: SB	| Board: RFI	| Range: True	| Stack : 13.0	| Bet : call 	| Hand ID : local_62fc7b35_h0178
-Hand: AJo	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 12.5	| Bet : call 	| Hand ID : local_62fc7b35_h0179
-Hand: AJo	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 11.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0179
-Hand: 84o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 11.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0180
-Hand: AQs	| Pos: UTG	| Board: RFI	| Range: True	| Stack : 11.5	| Bet : call 	| Hand ID : local_62fc7b35_h0181
-Hand: AQs	| Pos: UTG	| Board: FRFI	| Range: False	| Stack : 10.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0181
-Hand: Q4o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 9.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0182
-Hand: 72o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 9.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0183
-Hand: Q2s	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 9.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0184
-Hand: JJ	| Pos: HJ	| Board: RFI	| Range: True	| Stack : 9.0	| Bet : call 	| Hand ID : local_62fc7b35_h0185
-Hand: JJ	| Pos: HJ	| Board: FRFI	| Range: False	| Stack : 8.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0185
-Hand: A8s	| Pos: UTG	| Board: RFI	| Range: True	| Stack : 8.0	| Bet : call 	| Hand ID : local_62fc7b35_h0186
-Hand: A8s	| Pos: UTG	| Board: FRFI	| Range: False	| Stack : 7.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0186
-Hand: KJo	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 6.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0187
-Hand: 86o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 5.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0188
-Hand: QJs	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 5.5	| Bet : call 	| Hand ID : local_62fc7b35_h0189
-Hand: QJs	| Pos: BTN	| Board: FRFI	| Range: False	| Stack : 4.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0189
-Hand: K9s	| Pos: HJ	| Board: RFI	| Range: True	| Stack : 4.5	| Bet : call 	| Hand ID : local_62fc7b35_h0190
-Hand: K9s	| Pos: HJ	| Board: FRFI	| Range: False	| Stack : 3.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0190
-Hand: 95o	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 3.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0191
-Hand: 55	| Pos: BB	| Board: RFI	| Range: False	| Stack : 2.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0192
-Hand: 96o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 2.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0193
-Hand: J8o	| Pos: BTN	| Board: RFI	| Range: False	| Stack : 2.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0194
-Hand: T4o	| Pos: HJ	| Board: RFI	| Range: False	| Stack : 2.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0195
-Hand: 22	| Pos: UTG	| Board: RFI	| Range: False	| Stack : 2.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0196
-Hand: 95o	| Pos: BB	| Board: FRFI	| Range: False	| Stack : 1.0	| Bet : fold 	| Hand ID : local_62fc7b35_h0197
-Hand: J5o	| Pos: SB	| Board: RFI	| Range: False	| Stack : 0.5	| Bet : fold 	| Hand ID : local_62fc7b35_h0198
-Hand: 99	| Pos: BTN	| Board: RFI	| Range: True	| Stack : 0.5	| Bet : call 	| Hand ID : local_62fc7b35_h0199
+scenario: RFI | pos: CO | hand: JTo | in_range: False
+scenario: RFI | pos: HJ | hand: A8s | in_range: True
+RFI > 250 @ HJ with A8s | stack: 100.0bb bin: 100
+scenario: RFI | pos: UTG | hand: K2o | in_range: False
+scenario: FRFI vs_UTG | pos: BB | hand: 52s | in_range: False
+scenario: RFI | pos: SB | hand: 88 | in_range: True
+RFI > 300 @ SB with 88 | stack: 96.0bb bin: 100
+scenario: 3BET | pos: SB | hand: 88 | in_range: False
+scenario: FRFI vs_HJ | pos: BTN | hand: 85o | in_range: False
+scenario: RFI | pos: UTG | hand: K5o | in_range: False
+scenario: RFI | pos: BB | hand: K2s | in_range: False
+scenario: RFI | pos: SB | hand: A3o | in_range: True
+RFI > 300 @ SB with A3o | stack: 92.0bb bin: 100
+scenario: RFI | pos: BTN | hand: K6s | in_range: True
+RFI > 200 @ BTN with K6s | stack: 93.5bb bin: 100
+scenario: RFI | pos: HJ | hand: 53o | in_range: False
+scenario: RFI | pos: UTG | hand: ATo | in_range: False
+scenario: RFI | pos: BB | hand: 32o | in_range: False
+scenario: RFI | pos: SB | hand: 76s | in_range: True
+RFI > 300 @ SB with 76s | stack: 90.0bb bin: 100
+scenario: RFI | pos: BTN | hand: 62o | in_range: False
+scenario: RFI | pos: HJ | hand: K7o | in_range: False
+scenario: RFI | pos: UTG | hand: A4o | in_range: False
+scenario: FRFI vs_BTN | pos: BB | hand: T3o | in_range: False
+scenario: RFI | pos: SB | hand: A4o | in_range: True
+RFI > 300 @ SB with A4o | stack: 90.0bb bin: 100
+scenario: RFI | pos: BTN | hand: A6o | in_range: True
+RFI > 200 @ BTN with A6o | stack: 91.5bb bin: 100
+scenario: RFI | pos: HJ | hand: J7o | in_range: False
+scenario: RFI | pos: UTG | hand: T6o | in_range: False
+scenario: RFI | pos: BB | hand: Q4o | in_range: False
+scenario: RFI | pos: SB | hand: T7o | in_range: False
+scenario: RFI | pos: BTN | hand: 54o | in_range: False
+scenario: RFI | pos: HJ | hand: 42s | in_range: False
+scenario: RFI | pos: UTG | hand: 63o | in_range: False
+scenario: RFI | pos: BB | hand: K2s | in_range: False
+scenario: RFI | pos: SB | hand: 53o | in_range: False
+scenario: RFI | pos: BTN | hand: 44 | in_range: True
+RFI > 200 @ BTN with 44 | stack: 86.5bb bin: 100
+scenario: RFI | pos: HJ | hand: JTo | in_range: False
+scenario: RFI | pos: UTG | hand: K2o | in_range: False
+scenario: RFI | pos: BB | hand: J2o | in_range: False
+scenario: RFI | pos: SB | hand: 75o | in_range: False
+scenario: RFI | pos: BTN | hand: J7o | in_range: False
+scenario: RFI | pos: HJ | hand: AQo | in_range: True
+RFI > 250 @ HJ with AQo | stack: 83.0bb bin: 100
+scenario: RFI | pos: UTG | hand: QTo | in_range: False
+scenario: RFI | pos: BB | hand: 94o | in_range: False
+scenario: RFI | pos: SB | hand: A8o | in_range: True
+RFI > 300 @ SB with A8o | stack: 83.0bb bin: 100
+scenario: RFI | pos: BTN | hand: Q2o | in_range: False
+scenario: RFI | pos: HJ | hand: A3o | in_range: False
+scenario: RFI | pos: UTG | hand: T5o | in_range: False
+scenario: RFI | pos: BB | hand: Q9o | in_range: False
+scenario: RFI | pos: SB | hand: T2s | in_range: True
+RFI > 300 @ SB with T2s | stack: 83.0bb bin: 100
+scenario: RFI | pos: BTN | hand: 22 | in_range: True
+RFI > 200 @ BTN with 22 | stack: 84.5bb bin: 100
+scenario: RFI | pos: HJ | hand: 76s | in_range: False
+scenario: RFI | pos: UTG | hand: J9o | in_range: False
+scenario: RFI | pos: BB | hand: 92s | in_range: False
+scenario: RFI | pos: SB | hand: K9o | in_range: True
+RFI > 300 @ SB with K9o | stack: 81.0bb bin: 100
+scenario: RFI | pos: BTN | hand: A7s | in_range: True
+RFI > 200 @ BTN with A7s | stack: 82.5bb bin: 100
+scenario: RFI | pos: HJ | hand: AQo | in_range: True
+RFI > 250 @ HJ with AQo | stack: 80.5bb bin: 100
+scenario: RFI | pos: UTG | hand: T8o | in_range: False
+scenario: RFI | pos: BB | hand: K9o | in_range: False
+scenario: RFI | pos: SB | hand: J7s | in_range: True
+RFI > 300 @ SB with J7s | stack: 80.5bb bin: 100
+scenario: RFI | pos: BTN | hand: K3o | in_range: False
+scenario: RFI | pos: HJ | hand: Q3s | in_range: False
+scenario: RFI | pos: UTG | hand: T8o | in_range: False
+scenario: RFI | pos: BB | hand: J4o | in_range: False
+scenario: RFI | pos: SB | hand: Q7s | in_range: True
+RFI > 300 @ SB with Q7s | stack: 80.5bb bin: 100
+scenario: RFI | pos: BTN | hand: A9s | in_range: True
+RFI > 200 @ BTN with A9s | stack: 82.0bb bin: 100
+scenario: RFI | pos: HJ | hand: Q4s | in_range: False
+scenario: RFI | pos: UTG | hand: A7o | in_range: False
+scenario: RFI | pos: BB | hand: A3s | in_range: False
+scenario: RFI | pos: SB | hand: 85o | in_range: False
+scenario: RFI | pos: BTN | hand: T4o | in_range: False
+scenario: RFI | pos: HJ | hand: T4o | in_range: False
+scenario: RFI | pos: UTG | hand: K5s | in_range: False
+scenario: RFI | pos: BB | hand: T7o | in_range: False
+scenario: RFI | pos: SB | hand: J3o | in_range: False
+scenario: RFI | pos: BTN | hand: Q7o | in_range: False
+scenario: RFI | pos: HJ | hand: A6s | in_range: True
+RFI > 250 @ HJ with A6s | stack: 77.0bb bin: 60
+scenario: RFI | pos: UTG | hand: JTs | in_range: False
+scenario: RFI | pos: BB | hand: Q4o | in_range: False
+scenario: RFI | pos: SB | hand: K5o | in_range: False
+scenario: RFI | pos: BTN | hand: KQo | in_range: True
+RFI > 200 @ BTN with KQo | stack: 77.0bb bin: 60
+scenario: RFI | pos: HJ | hand: A4s | in_range: True
+RFI > 250 @ HJ with A4s | stack: 75.0bb bin: 60
+scenario: RFI | pos: UTG | hand: 42s | in_range: False
+scenario: RFI | pos: BB | hand: K4o | in_range: False
+scenario: RFI | pos: SB | hand: 96o | in_range: False
+scenario: RFI | pos: BTN | hand: K8o | in_range: False
+scenario: RFI | pos: HJ | hand: 93o | in_range: False
+scenario: RFI | pos: UTG | hand: 82o | in_range: False
+scenario: RFI | pos: BB | hand: A6s | in_range: False
+scenario: RFI | pos: SB | hand: T2o | in_range: False
+scenario: RFI | pos: BTN | hand: A2o | in_range: True
+RFI > 200 @ BTN with A2o | stack: 73.5bb bin: 60
+scenario: RFI | pos: HJ | hand: QJo | in_range: False
+scenario: RFI | pos: UTG | hand: Q3s | in_range: False
+scenario: RFI | pos: BB | hand: 66 | in_range: False
+scenario: RFI | pos: SB | hand: KTo | in_range: True
+RFI > 300 @ SB with KTo | stack: 70.0bb bin: 60
+scenario: RFI | pos: BTN | hand: 52o | in_range: False
+scenario: RFI | pos: HJ | hand: 84s | in_range: False
+scenario: RFI | pos: UTG | hand: 83o | in_range: False
+scenario: RFI | pos: BB | hand: 74s | in_range: False
+scenario: RFI | pos: SB | hand: K6s | in_range: True
+RFI > 300 @ SB with K6s | stack: 70.0bb bin: 60
+scenario: RFI | pos: BTN | hand: K3o | in_range: False
+scenario: RFI | pos: HJ | hand: T7o | in_range: False
+scenario: RFI | pos: UTG | hand: Q2o | in_range: False
+scenario: RFI | pos: BB | hand: 42s | in_range: False
+scenario: RFI | pos: SB | hand: QJo | in_range: True
+RFI > 300 @ SB with QJo | stack: 70.0bb bin: 60
+scenario: RFI | pos: BTN | hand: 84o | in_range: False
+scenario: RFI | pos: HJ | hand: 87o | in_range: False
+scenario: RFI | pos: UTG | hand: A4o | in_range: False
+scenario: RFI | pos: BB | hand: AQo | in_range: False
+scenario: RFI | pos: SB | hand: 63s | in_range: False
+scenario: RFI | pos: BTN | hand: 22 | in_range: True
+RFI > 200 @ BTN with 22 | stack: 70.0bb bin: 60
+scenario: RFI | pos: HJ | hand: KQo | in_range: True
+RFI > 250 @ HJ with KQo | stack: 68.0bb bin: 60
+scenario: RFI | pos: UTG | hand: 93o | in_range: False
+scenario: RFI | pos: BB | hand: Q3o | in_range: False
+scenario: RFI | pos: SB | hand: A7o | in_range: True
+RFI > 300 @ SB with A7o | stack: 68.0bb bin: 60
+scenario: RFI | pos: BTN | hand: A3o | in_range: True
+RFI > 200 @ BTN with A3o | stack: 69.5bb bin: 60
+scenario: RFI | pos: HJ | hand: J5o | in_range: False
+scenario: RFI | pos: UTG | hand: Q4s | in_range: False
+scenario: RFI | pos: BB | hand: 43s | in_range: False
+scenario: RFI | pos: SB | hand: K7o | in_range: True
+RFI > 300 @ SB with K7o | stack: 66.0bb bin: 60
+scenario: RFI | pos: BTN | hand: Q4s | in_range: False
+scenario: RFI | pos: HJ | hand: J4s | in_range: False
+scenario: RFI | pos: UTG | hand: J3s | in_range: False
+scenario: RFI | pos: BB | hand: A5o | in_range: False
+scenario: RFI | pos: SB | hand: J5o | in_range: False
+scenario: RFI | pos: BTN | hand: 33 | in_range: True
+RFI > 200 @ BTN with 33 | stack: 66.0bb bin: 60
+scenario: RFI | pos: HJ | hand: A5o | in_range: False
+scenario: RFI | pos: UTG | hand: 55 | in_range: False
+scenario: RFI | pos: BB | hand: 96s | in_range: False
+scenario: RFI | pos: SB | hand: T5s | in_range: True
+RFI > 300 @ SB with T5s | stack: 62.5bb bin: 60
+scenario: FRFI vs_UTG | pos: BTN | hand: Q2s | in_range: False
+scenario: RFI | pos: HJ | hand: J2s | in_range: False
+scenario: RFI | pos: UTG | hand: Q4o | in_range: False
+scenario: RFI | pos: BB | hand: A3o | in_range: False
+scenario: RFI | pos: SB | hand: A7o | in_range: True
+RFI > 300 @ SB with A7o | stack: 62.5bb bin: 60
+scenario: RFI | pos: BTN | hand: J4s | in_range: False
+scenario: RFI | pos: HJ | hand: 83o | in_range: False
+scenario: RFI | pos: UTG | hand: A5o | in_range: False
+scenario: RFI | pos: BB | hand: QJo | in_range: False
+scenario: RFI | pos: SB | hand: 86s | in_range: True
+RFI > 300 @ SB with 86s | stack: 62.5bb bin: 60
+scenario: RFI | pos: BTN | hand: T4o | in_range: False
+scenario: RFI | pos: HJ | hand: Q2s | in_range: False
+scenario: RFI | pos: UTG | hand: Q5s | in_range: False
+scenario: RFI | pos: BB | hand: K6s | in_range: False
+scenario: RFI | pos: SB | hand: J7o | in_range: False
+scenario: RFI | pos: BTN | hand: 83o | in_range: False
+scenario: RFI | pos: HJ | hand: 84o | in_range: False
+scenario: RFI | pos: UTG | hand: T7s | in_range: False
+scenario: RFI | pos: BB | hand: Q9o | in_range: False
+scenario: RFI | pos: SB | hand: Q9s | in_range: True
+RFI > 300 @ SB with Q9s | stack: 61.0bb bin: 60
+scenario: RFI | pos: BTN | hand: 43o | in_range: False
+scenario: RFI | pos: HJ | hand: QJo | in_range: False
+scenario: RFI | pos: UTG | hand: 84o | in_range: False
+scenario: RFI | pos: BB | hand: ATo | in_range: False
+scenario: RFI | pos: SB | hand: 76s | in_range: True
+RFI > 300 @ SB with 76s | stack: 61.0bb bin: 60
+scenario: RFI | pos: BTN | hand: Q4o | in_range: False
+scenario: RFI | pos: HJ | hand: T5s | in_range: False
+scenario: RFI | pos: UTG | hand: T2o | in_range: False
+scenario: RFI | pos: BB | hand: 65o | in_range: False
+scenario: RFI | pos: SB | hand: JJ | in_range: True
+RFI > 300 @ SB with JJ | stack: 61.0bb bin: 60
+scenario: RFI | pos: BTN | hand: 66 | in_range: True
+RFI > 200 @ BTN with 66 | stack: 62.5bb bin: 60
+scenario: RFI | pos: HJ | hand: J2o | in_range: False
+scenario: RFI | pos: UTG | hand: Q2o | in_range: False
+scenario: RFI | pos: BB | hand: A9o | in_range: False
+scenario: RFI | pos: SB | hand: T9o | in_range: True
+RFI > 300 @ SB with T9o | stack: 59.0bb bin: 60
+scenario: RFI | pos: BTN | hand: T2o | in_range: False
+scenario: RFI | pos: HJ | hand: T8o | in_range: False
+scenario: RFI | pos: UTG | hand: J7o | in_range: False
+scenario: RFI | pos: BB | hand: 72s | in_range: False
+scenario: RFI | pos: SB | hand: Q5o | in_range: False
+scenario: RFI | pos: BTN | hand: QJo | in_range: True
+RFI > 200 @ BTN with QJo | stack: 59.0bb bin: 60
+scenario: RFI | pos: HJ | hand: J4s | in_range: False
+scenario: RFI | pos: UTG | hand: JTo | in_range: False
+scenario: RFI | pos: BB | hand: J8s | in_range: False
+scenario: RFI | pos: SB | hand: 32o | in_range: False
+scenario: RFI | pos: BTN | hand: AKo | in_range: True
+RFI > 200 @ BTN with AKo | stack: 55.5bb bin: 60
+scenario: RFI | pos: HJ | hand: T8o | in_range: False
+scenario: RFI | pos: UTG | hand: 83o | in_range: False
+scenario: RFI | pos: BB | hand: AQo | in_range: False
+scenario: RFI | pos: SB | hand: K2o | in_range: False
+scenario: RFI | pos: BTN | hand: 95o | in_range: False
+scenario: RFI | pos: HJ | hand: T4o | in_range: False
+scenario: RFI | pos: UTG | hand: Q5o | in_range: False
+scenario: RFI | pos: BB | hand: K3o | in_range: False
+scenario: RFI | pos: SB | hand: J7o | in_range: False
+scenario: RFI | pos: BTN | hand: A5s | in_range: True
+RFI > 200 @ BTN with A5s | stack: 50.5bb bin: 60
+scenario: RFI | pos: HJ | hand: J3o | in_range: False
+scenario: RFI | pos: UTG | hand: KTs | in_range: False
+scenario: RFI | pos: BB | hand: T3o | in_range: False
+scenario: FRFI vs_HJ | pos: SB | hand: Q4o | in_range: False
+scenario: RFI | pos: BTN | hand: J3o | in_range: False
+scenario: RFI | pos: HJ | hand: 43o | in_range: False
+scenario: RFI | pos: UTG | hand: AQo | in_range: True
+RFI > 250 @ UTG with AQo | stack: 47.0bb bin: 40
+scenario: RFI | pos: BB | hand: AQo | in_range: False
+scenario: RFI | pos: SB | hand: K4o | in_range: False
+scenario: RFI | pos: BTN | hand: T8o | in_range: False
+scenario: RFI | pos: HJ | hand: KQs | in_range: True
+RFI > 250 @ HJ with KQs | stack: 47.0bb bin: 40
+scenario: RFI | pos: UTG | hand: J6s | in_range: False
+scenario: RFI | pos: BB | hand: J6o | in_range: False
+scenario: RFI | pos: SB | hand: 88 | in_range: True
+RFI > 300 @ SB with 88 | stack: 47.0bb bin: 40
+scenario: RFI | pos: BTN | hand: T2o | in_range: False
+scenario: RFI | pos: HJ | hand: T6o | in_range: False
+scenario: RFI | pos: UTG | hand: 93o | in_range: False
+scenario: RFI | pos: BB | hand: 53o | in_range: False
+scenario: RFI | pos: SB | hand: K9o | in_range: True
+RFI > 300 @ SB with K9o | stack: 47.0bb bin: 40
+scenario: RFI | pos: BTN | hand: Q4o | in_range: False
