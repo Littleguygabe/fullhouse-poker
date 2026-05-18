@@ -1,0 +1,35 @@
+17th may
+    Current Limits
+        Fixed bet sizing -> uses fixed bet size scaling
+
+    Have:
+        Currently all pre-flop logic implemented
+    
+    Need
+        # how do we handle the post flop game?
+        # have 3 main components:
+        # 1. Equity vs Pot Odds
+            # Equity > Pot Odds mathematically should call
+    
+        # So how do we calculate equity?
+        # use eval7 monte carlo
+        # takes 3 args:
+            # 1. my hand
+            # 2. opponent range
+            # 3. community cards
+
+        # So means we need to calculate the opponent's range
+        # use pre-determined hands with adjustment factors based on:
+            # 1. Opponent Position
+            # 2. Pre-flop action - limp or raise
+            # 3. Opponent Stack Size
+
+        #then just do basic equity vs pot odds
+ 
+        Implement range lookup for post flop opponent
+
+    Did
+        Logic to get flop pot odds
+        Improved file reading
+        Improved file logging
+        Get opponent range factors

@@ -8,27 +8,48 @@ from typing import *
 BOT_NAME = "MyBot"
 BOT_AVATAR = "robot_1"
 
-# Create/clear the log file when the bot boots up
-LOG_FILE = "bots/mybot/debug.log"
-with open(LOG_FILE, "w") as f:
-    f.write("--- MATCH START ---\n")
+# 1. Direct path resolution
+BOT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BOT_DIR, 'data')
+LOG_FILE = os.path.join(BOT_DIR, "debug.log")
 
 def log(message):
-    with open(LOG_FILE, "a") as f:
-        f.write(str(message) + "\n")
+    """Logs to stderr (for sandbox/runner) and debug.log (for local)."""
+    msg = str(message)
+    sys.stderr.write(msg + "\n")
+    sys.stderr.flush()
+    try:
+        with open(LOG_FILE, "a") as f:
+            f.write(msg + "\n")
+    except Exception:
+        pass
 
-def log_state(game_state):
-    log(f"HandID : {game_state.get('hand_id','')} | Street : {game_state.get('street','')} | Hand : {cards_to_key(game_state.get('your_cards',[]))} | Stack : {get_stack_as_bb(game_state)}")
+# Initialize log file
+try:
+    with open(LOG_FILE, "w") as f:
+        f.write("--- MATCH START ---\n")
+except Exception:
+    pass
 
-####### loading json data at import time
 RANGES = {}
-DATA_DIR = 'bots/mybot/data'
 if os.path.exists(DATA_DIR):
     for fn in os.listdir(DATA_DIR):
         if fn.endswith('.json'):
             scenario = fn.split('.')[0]
-            with open(os.path.join(DATA_DIR, fn)) as f:
-                RANGES[scenario] = json.load(f)
+            path = os.path.join(DATA_DIR, fn)
+            try:
+                if os.path.getsize(path) > 0:
+                    with open(path) as f:
+                        RANGES[scenario] = json.load(f)
+                else:
+                    log(f"WARNING: Skipping empty data file: {fn}")
+            except Exception as e:
+                log(f"ERROR: Could not load {fn}: {e}")
+
+
+def log_state(game_state):
+    log(f"HandID : {game_state.get('hand_id','')} | Street : {game_state.get('street','')} | Hand : {cards_to_key(game_state.get('your_cards',[]))} | Stack : {get_stack_as_bb(game_state)}")
+
 
 ###### STACK_BINS must be ascending for bisect to work
 STACK_BINS = [8, 10, 12, 15, 20, 25, 30, 40, 60, 100]
@@ -44,6 +65,10 @@ RFI_SIZES = {
 }
 
 def cards_to_key(cards: List[str]) -> str:
+    # Guard against empty hand arrays sent during showdowns
+    if not cards or len(cards) < 2:
+        return "None"
+        
     # Converts ['As', 'Kh'] -> 'AKo', ['8s', '8h'] -> '88'
     ranks = "23456789TJQKA"
     r1, s1 = cards[0][0], cards[0][1]
@@ -189,22 +214,89 @@ def handle_preflop(game_state) -> dict:
     
     return {'action': 'fold'}
 
+# returns pot odds as float [0, 1]
+def get_pot_odds(game_state) -> float:
+    # * get amount you need to put in to call
+    # * get total pot amnt for if you call
+    # * return ratio of call amnt / pot size
+
+    if game_state.get('can_check',False):
+        return 0.0
+
+    pot_size_raw = sum (a.get('amount',0) for a in game_state.get('action_log',[]))
+    amount_to_call = game_state.get('amount_owed',0)
+    total_pot = pot_size_raw + amount_to_call
+
+    return amount_to_call/total_pot
+
+
+def get_opponent_preflop_action(game_state: dict, opponent_seat: int) -> str:
+
+    opponent_actions = [
+        a for a in game_state.get('action_log', []) if a.get('seat') == opponent_seat]
+
+    if not opponent_actions:
+        return "unknown"
+
+    if any(a.get('action') in ('raise', 'all_in') for a in opponent_actions):
+        return 'raise'
+
+    if any(a.get('action') == 'call' for a in opponent_actions):
+        return 'call'
+
+    return 'check_or_fold'
+
+def get_opponent_range(game_state, opponent_dict):
+    # * Opponent Position
+    # * Pre-flop action
+    # * Opponent stack size
+    # ? Range lookup against these values
+    log(game_state['action_log'])
+    
+    position = get_position_name(game_state,opponent_dict.get('seat'))
+    action = get_opponent_preflop_action(game_state, opponent_dict.get('seat'))
+    stack = opponent_dict.get('stack',0)
+
+    log(f'{position,action,stack}')
+    
+
+def get_equity(game_state):
+    # * My hand
+    # * Community cards
+    # ? Opponent range
+    
+    my_hand = game_state.get('your_cards',[])
+    community_cards = game_state.get('community_cards',[])
+
+    current_players = [player for player in game_state.get('players',[]) if player.get('is_folded',True) == False and player.get('seat',-1) != game_state.get('seat_to_act')]
+    
+    for opponent in current_players:
+        op_range = get_opponent_range(game_state, opponent)
+
+
+def handle_flop(game_state:dict) -> dict:
+    # * Pot Odds
+    # ? Equity
+    
+    pot_odds = get_pot_odds(game_state)
+    equity = get_equity(game_state)
+
+
 
 def decide(game_state: dict) -> dict:
-    # ? bet sizing
-    # ? implement a proper logger
-        # like the one from imc
-    # ? maybe vibe code a visualiser from the logger
-
     move = {'action':'fold'}
-
+    street = game_state.get('street','')
     try:
         if game_state.get('type') == 'warmup':
             return {"ok": True}
 
-        if game_state.get('street') == 'preflop':
+        if street  == 'preflop':
             move = handle_preflop(game_state)
 
+        elif street == 'flop':
+            handle_flop(game_state) 
+
+        handle_flop(game_state)
 
         # log_state(game_state)
 
@@ -215,6 +307,5 @@ def decide(game_state: dict) -> dict:
         log("!!! BOT CRASHED !!!")
         log(err)
         return {"action": "fold"}
-    
     
 
