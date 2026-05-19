@@ -46,6 +46,7 @@ if os.path.exists(DATA_DIR):
             except Exception as e:
                 log(f"ERROR: Could not load {fn}: {e}")
 
+log(RANGES.keys())
 
 def log_state(game_state):
     log(f"HandID : {game_state.get('hand_id','')} | Street : {game_state.get('street','')} | Hand : {cards_to_key(game_state.get('your_cards',[]))} | Stack : {get_stack_as_bb(game_state)}")
@@ -231,27 +232,31 @@ def get_pot_odds(game_state) -> float:
 
 
 def get_opponent_preflop_action(game_state: dict, opponent_seat: int) -> str:
+    preflop_actions = []
+    for a in game_state.get('action_log', []):
+
+        if a.get('action') == 'deal' and a.get('street') == 'flop':
+            break
+        preflop_actions.append(a)
 
     opponent_actions = [
-        a for a in game_state.get('action_log', []) if a.get('seat') == opponent_seat]
+        a for a in preflop_actions 
+        if a.get('seat') == opponent_seat
+    ]
 
     if not opponent_actions:
         return "unknown"
 
-    if any(a.get('action') in ('raise', 'all_in') for a in opponent_actions):
-        return 'raise'
-
-    if any(a.get('action') == 'call' for a in opponent_actions):
-        return 'call'
-
-    return 'check_or_fold'
+    latest_action = opponent_actions[-1]
+    return latest_action.get('action', 'unknown')
 
 def get_opponent_range(game_state, opponent_dict):
     # * Opponent Position
     # * Pre-flop action
     # * Opponent stack size
     # ? Range lookup against these values
-    log(game_state['action_log'])
+
+    # log(game_state['action_log'])
     
     position = get_position_name(game_state,opponent_dict.get('seat'))
     action = get_opponent_preflop_action(game_state, opponent_dict.get('seat'))
@@ -293,13 +298,14 @@ def decide(game_state: dict) -> dict:
         if street  == 'preflop':
             move = handle_preflop(game_state)
 
-        elif street == 'flop':
-            handle_flop(game_state) 
+        elif street in ['flop','turn','river']:
+            move = handle_flop(game_state) 
 
-        handle_flop(game_state)
 
         # log_state(game_state)
 
+        if move is None:
+            return {'action':'fold'}
         return move
 
     except Exception:

@@ -1,6 +1,7 @@
 17th may
     Current Limits
         Fixed bet sizing -> uses fixed bet size scaling
+        My Range selection is limited
 
     Have:
         Currently all pre-flop logic implemented
@@ -33,3 +34,24 @@
         Improved file reading
         Improved file logging
         Get opponent range factors
+
+
+18th may
+    Major Current Limits:
+        Doesn't count limps into the pot pre-flop
+        need to implement mixed betting frequencies
+            ie betting randomly based on pot odds
+
+    Have:
+        pot odds
+        opponent characteristics
+
+    Need:
+        opponent range lookup
+        generate pre-define opponent hand ranges
+            4d matrix of
+                Scenario/Action -> Stack Size -> Position -> Potential Range
+        retrieve opponent ranges from solver
+
+    Did:
+        Fixed post flop to actually get the opponents last pre flop action

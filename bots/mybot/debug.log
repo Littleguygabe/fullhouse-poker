@@ -1,202 +1,108 @@
 --- MATCH START ---
 WARNING: Skipping empty data file: 3BET.json
-scenario: RFI | pos: BB | hand: ATo | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}]
-('BTN', 'call', 9900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}]
-('SB', 'call', 9900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('BTN', 'call', 9900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('SB', 'call', 9900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('BTN', 'call', 9900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('SB', 'call', 9900)
-scenario: RFI | pos: SB | hand: 98o | in_range: True
-RFI > 300 @ SB with 98o | stack: 98.5bb bin: 100
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 10100)
-scenario: 3BET | pos: SB | hand: 98o | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 300}, {'seat': 0, 'action': 'raise', 'amount': 1000}]
-('BB', 'raise', 9200)
-scenario: RFI | pos: BTN | hand: A7o | in_range: True
-RFI > 200 @ BTN with A7o | stack: 96.0bb bin: 100
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 10450)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 9800)
-scenario: 3BET | pos: BTN | hand: A7o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}, {'seat': 2, 'action': 'raise', 'amount': 200}, {'seat': 0, 'action': 'raise', 'amount': 600}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('SB', 'raise', 9900)
-scenario: FRFI vs_BTN | pos: BB | hand: Q8s | in_range: True
-3bet > 1300 @ BB vs BTN with Q8s
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 10400)
-scenario: 3BET_PLUS | pos: BB | hand: Q8s | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 1300}, {'seat': 0, 'action': 'raise', 'amount': 4400}]
-('BTN', 'raise', 6400)
-scenario: RFI | pos: SB | hand: 43o | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 12050)
-scenario: RFI | pos: BTN | hand: A9o | in_range: True
-RFI > 200 @ BTN with A9o | stack: 80.5bb bin: 100
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 12150)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 9650)
-scenario: 3BET | pos: BTN | hand: A9o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}, {'seat': 2, 'action': 'raise', 'amount': 200}, {'seat': 0, 'action': 'raise', 'amount': 900}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('SB', 'raise', 11300)
-scenario: FRFI vs_BTN | pos: BB | hand: Q4s | in_range: True
-3bet > 1300 @ BB vs BTN with Q4s
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 12100)
-scenario: 3BET_PLUS | pos: BB | hand: Q4s | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 1300}, {'seat': 0, 'action': 'raise', 'amount': 4400}]
-('BTN', 'raise', 8100)
-scenario: RFI | pos: SB | hand: ATo | in_range: True
-RFI > 300 @ SB with ATo | stack: 65.0bb bin: 60
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 13750)
-scenario: 3BET | pos: SB | hand: ATo | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 300}, {'seat': 0, 'action': 'raise', 'amount': 1000}]
-('BB', 'raise', 12850)
-scenario: RFI | pos: BTN | hand: J8o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 14100)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 9500)
-scenario: FRFI vs_BTN | pos: BB | hand: JJ | in_range: True
-3bet > 1300 @ BB vs BTN with JJ
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 13850)
-scenario: 3BET_PLUS | pos: BB | hand: JJ | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 1300}, {'seat': 0, 'action': 'raise', 'amount': 8800}]
-('BTN', 'raise', 5450)
-scenario: RFI | pos: SB | hand: KQo | in_range: True
-RFI > 300 @ SB with KQo | stack: 49.0bb bin: 40
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 15500)
-scenario: 3BET | pos: SB | hand: KQo | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 300}, {'seat': 0, 'action': 'raise', 'amount': 1000}]
-('BB', 'raise', 14600)
-scenario: RFI | pos: BTN | hand: T9o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 15850)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 9350)
-scenario: RFI | pos: BB | hand: 84o | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}]
-('BTN', 'call', 15900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}]
-('SB', 'call', 9250)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('BTN', 'call', 15900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('SB', 'call', 9250)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('BTN', 'call', 15900)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('SB', 'call', 9250)
-scenario: RFI | pos: SB | hand: A8s | in_range: True
-RFI > 300 @ SB with A8s | stack: 45.0bb bin: 40
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 16100)
-scenario: 3BET | pos: SB | hand: A8s | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 300}, {'seat': 0, 'action': 'raise', 'amount': 1000}]
-('BB', 'raise', 15200)
-scenario: RFI | pos: BTN | hand: T6o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 16450)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 9150)
-scenario: RFI | pos: BB | hand: A4o | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}]
-('BTN', 'call', 16500)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}]
-('SB', 'call', 9050)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('BTN', 'call', 16500)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('SB', 'call', 9050)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('BTN', 'call', 16500)
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 2, 'action': 'check', 'amount': 0}, {'seat': 1, 'action': 'check', 'amount': 0}]
-('SB', 'call', 9050)
-scenario: RFI | pos: SB | hand: 74s | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 16700)
-scenario: RFI | pos: BTN | hand: A7o | in_range: True
-RFI > 200 @ BTN with A7o | stack: 41.0bb bin: 40
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 16800)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 8950)
-scenario: 3BET | pos: BTN | hand: A7o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}, {'seat': 2, 'action': 'raise', 'amount': 200}, {'seat': 0, 'action': 'raise', 'amount': 900}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('SB', 'raise', 15950)
-scenario: FRFI vs_BTN | pos: BB | hand: A4s | in_range: True
-3bet > 1300 @ BB vs BTN with A4s
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 16750)
-scenario: 3BET_PLUS | pos: BB | hand: A4s | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 1300}, {'seat': 0, 'action': 'raise', 'amount': 4400}]
-('BTN', 'raise', 12750)
-scenario: RFI | pos: SB | hand: 62s | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 18400)
+dict_keys(['FRFI', 'RFI'])
+scenario: RFI | pos: BB | hand: K4s | in_range: False
+{'seat': 0, 'action': 'call', 'amount': 100}
+[{'seat': 0, 'action': 'call', 'amount': 100}]
+('BTN', 'fold', 9900)
+{'seat': 1, 'action': 'check', 'amount': 0}
+[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 1, 'action': 'check', 'amount': 0}]
+('SB', 'fold', 9900)
+scenario: RFI | pos: SB | hand: K2o | in_range: False
 scenario: RFI | pos: BTN | hand: 83o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 18500)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 8800)
-scenario: FRFI vs_BTN | pos: BB | hand: 97o | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 18250)
-scenario: RFI | pos: SB | hand: 63o | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 18700)
-scenario: RFI | pos: BTN | hand: JJ | in_range: True
-RFI > 200 @ BTN with JJ | stack: 24.0bb bin: 25
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 18800)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 8650)
-scenario: 3BET | pos: BTN | hand: JJ | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}, {'seat': 2, 'action': 'raise', 'amount': 200}, {'seat': 0, 'action': 'raise', 'amount': 600}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('SB', 'raise', 18250)
+scenario: FRFI vs_BTN | pos: BB | hand: A9s | in_range: True
+3bet > 1950 @ BB vs BTN with A9s
+scenario: 3BET_PLUS | pos: BB | hand: A9s | in_range: False
+scenario: RFI | pos: SB | hand: 76s | in_range: True
+RFI > 300 @ SB with 76s | stack: 78.5bb bin: 60
+scenario: 3BET | pos: SB | hand: 76s | in_range: False
+scenario: RFI | pos: BTN | hand: 43o | in_range: False
+scenario: FRFI vs_BTN | pos: BB | hand: 72o | in_range: False
+scenario: RFI | pos: SB | hand: A3o | in_range: True
+RFI > 300 @ SB with A3o | stack: 74.5bb bin: 60
+scenario: 3BET | pos: SB | hand: A3o | in_range: False
+scenario: RFI | pos: BTN | hand: J3o | in_range: False
+scenario: RFI | pos: BB | hand: T2o | in_range: False
+{'seat': 0, 'action': 'call', 'amount': 100}
+[{'seat': 0, 'action': 'call', 'amount': 100}]
+('BTN', 'fold', 13200)
+{'seat': 1, 'action': 'check', 'amount': 0}
+[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 1, 'action': 'check', 'amount': 0}]
+('SB', 'fold', 9400)
+scenario: RFI | pos: SB | hand: 42o | in_range: False
+scenario: RFI | pos: BTN | hand: 75o | in_range: False
 scenario: FRFI vs_BTN | pos: BB | hand: 74o | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 600}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 18550)
-scenario: RFI | pos: SB | hand: 83o | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 19200)
-scenario: RFI | pos: BTN | hand: 42o | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 19300)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 8500)
-scenario: FRFI vs_BTN | pos: BB | hand: 53o | in_range: False
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 600}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 18850)
-scenario: RFI | pos: SB | hand: QJo | in_range: True
-RFI > 300 @ SB with QJo | stack: 19.0bb bin: 20
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BB', 'check_or_fold', 19500)
-scenario: 3BET | pos: SB | hand: QJo | in_range: False
-[{'seat': 2, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'fold', 'amount': 0}, {'seat': 2, 'action': 'raise', 'amount': 300}, {'seat': 0, 'action': 'raise', 'amount': 2000}]
-('BB', 'raise', 17600)
-scenario: RFI | pos: BTN | hand: JJ | in_range: True
-RFI > 200 @ BTN with JJ | stack: 16.5bb bin: 15
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('SB', 'check_or_fold', 19850)
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}]
-('BB', 'check_or_fold', 8350)
-scenario: 3BET | pos: BTN | hand: JJ | in_range: False
-[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'big_blind', 'amount': 100}, {'seat': 2, 'action': 'raise', 'amount': 200}, {'seat': 0, 'action': 'raise', 'amount': 600}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('SB', 'raise', 19300)
-scenario: FRFI vs_BTN | pos: BB | hand: A9o | in_range: True
-3bet > 1350 @ BB vs BTN with A9o
-[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 2, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'raise', 'amount': 800}, {'seat': 1, 'action': 'fold', 'amount': 0}]
-('BTN', 'raise', 19400)
+scenario: RFI | pos: SB | hand: 72o | in_range: False
+scenario: RFI | pos: BTN | hand: J6o | in_range: False
+scenario: FRFI vs_BTN | pos: BB | hand: A4o | in_range: True
+3bet > 1300 @ BB vs BTN with A4o
+scenario: 3BET_PLUS | pos: BB | hand: A4o | in_range: False
+scenario: RFI | pos: SB | hand: K4s | in_range: True
+RFI > 300 @ SB with K4s | stack: 55.5bb bin: 60
+{'seat': 0, 'action': 'call', 'amount': 200}
+[{'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 200}]
+('BB', 'fold', 15000)
+scenario: RFI | pos: BTN | hand: Q8o | in_range: False
+scenario: FRFI vs_BTN | pos: BB | hand: KTo | in_range: True
+3bet > 1300 @ BB vs BTN with KTo
+{'seat': 0, 'action': 'call', 'amount': 900}
+[{'seat': 0, 'action': 'raise', 'amount': 400}, {'seat': 0, 'action': 'call', 'amount': 900}]
+('BTN', 'fold', 14400)
+scenario: RFI | pos: SB | hand: 98s | in_range: True
+RFI > 300 @ SB with 98s | stack: 39.5bb bin: 40
+{'seat': 0, 'action': 'call', 'amount': 200}
+[{'seat': 0, 'action': 'big_blind', 'amount': 100}, {'seat': 0, 'action': 'call', 'amount': 200}]
+('BB', 'fold', 16750)
+scenario: RFI | pos: BTN | hand: KTo | in_range: True
+RFI > 200 @ BTN with KTo | stack: 37.0bb bin: 40
+scenario: 3BET | pos: BTN | hand: KTo | in_range: False
+scenario: FRFI vs_BTN | pos: BB | hand: A2o | in_range: True
+3bet > 1950 @ BB vs BTN with A2o
+{'seat': 0, 'action': 'call', 'amount': 1350}
+[{'seat': 0, 'action': 'raise', 'amount': 600}, {'seat': 0, 'action': 'call', 'amount': 1350}]
+('BTN', 'fold', 15700)
+scenario: RFI | pos: SB | hand: KTo | in_range: True
+RFI > 300 @ SB with KTo | stack: 15.0bb bin: 15
+scenario: 3BET | pos: SB | hand: KTo | in_range: False
+scenario: RFI | pos: BTN | hand: 63s | in_range: False
+scenario: RFI | pos: BB | hand: T5o | in_range: False
+{'seat': 0, 'action': 'call', 'amount': 100}
+[{'seat': 0, 'action': 'call', 'amount': 100}]
+('BTN', 'fold', 19950)
+{'seat': 1, 'action': 'check', 'amount': 0}
+[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 1, 'action': 'check', 'amount': 0}]
+('SB', 'fold', 8600)
+scenario: RFI | pos: SB | hand: K3o | in_range: False
+scenario: RFI | pos: BTN | hand: AKs | in_range: True
+RFI > 200 @ BTN with AKs | stack: 11.0bb bin: 10
+{'seat': 0, 'action': 'check', 'amount': 0}
+[{'seat': 0, 'action': 'small_blind', 'amount': 50}, {'seat': 0, 'action': 'call', 'amount': 150}, {'seat': 0, 'action': 'check', 'amount': 0}]
+('SB', 'fold', 20100)
+{'seat': 1, 'action': 'check', 'amount': 0}
+[{'seat': 1, 'action': 'big_blind', 'amount': 100}, {'seat': 1, 'action': 'call', 'amount': 100}, {'seat': 1, 'action': 'check', 'amount': 0}]
+('BB', 'fold', 8400)
+scenario: RFI | pos: BB | hand: Q3o | in_range: False
+{'seat': 0, 'action': 'call', 'amount': 100}
+[{'seat': 0, 'action': 'call', 'amount': 100}]
+('BTN', 'fold', 20600)
+{'seat': 1, 'action': 'check', 'amount': 0}
+[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 1, 'action': 'check', 'amount': 0}]
+('SB', 'fold', 8300)
+scenario: RFI | pos: SB | hand: 76o | in_range: False
+scenario: RFI | pos: BTN | hand: AQo | in_range: True
+RFI > 200 @ BTN with AQo | stack: 7.5bb bin: 8
+scenario: 3BET | pos: BTN | hand: AQo | in_range: False
+scenario: FRFI vs_BTN | pos: BB | hand: T4o | in_range: False
+scenario: RFI | pos: SB | hand: K2o | in_range: True
+RFI > 300 @ SB with K2o | stack: 4.0bb bin: 8
+scenario: 3BET | pos: SB | hand: K2o | in_range: False
+scenario: RFI | pos: BTN | hand: 98o | in_range: False
+scenario: RFI | pos: BB | hand: K2o | in_range: False
+{'seat': 0, 'action': 'call', 'amount': 100}
+[{'seat': 0, 'action': 'call', 'amount': 100}]
+('BTN', 'fold', 21700)
+{'seat': 1, 'action': 'check', 'amount': 0}
+[{'seat': 1, 'action': 'small_blind', 'amount': 50}, {'seat': 1, 'action': 'call', 'amount': 50}, {'seat': 1, 'action': 'check', 'amount': 0}]
+('SB', 'fold', 7950)
+scenario: RFI | pos: BTN | hand: KTo | in_range: True
+RFI > 100 @ BTN with KTo | stack: 1.0bb bin: 8
